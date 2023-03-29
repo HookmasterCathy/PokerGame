@@ -1,0 +1,146 @@
+﻿<Window x:Class="PokerThing1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PokerThing1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000">
+
+
+
+
+    <Grid>
+        <Image Source="/2_of_clubs.png" x:Name="TwoOfClubs" Visibility="Hidden"></Image>
+        <Image Source="/2_of_spades.png" x:Name="TwoOfSpades" Visibility="Hidden"></Image>
+        <Image Source="/2_of_hearts.png" x:Name="TwoOfHearts" Visibility="Hidden"></Image>
+        <Image Source="/2_of_diamonds.png" x:Name="TwoOfDiamonds" Visibility="Hidden"></Image>
+        <Image Source="/3_of_clubs.png" x:Name="ThreeOfClubs" Visibility="Hidden"></Image>
+        <Image Source="/3_of_spades.png" x:Name="ThreeOfSpades" Visibility="Hidden"></Image>
+        <Image Source="/3_of_hearts.png" x:Name="ThreeOfHearts" Visibility="Hidden"></Image>
+        <Image Source="/3_of_diamonds.png" x:Name="ThreeOfDiamonds" Visibility="Hidden"></Image>
+        <Image Source="/4_of_clubs.png" x:Name="FourOfClubs" Visibility="Hidden"></Image>
+        <Image Source="/4_of_spades.png" x:Name="FourOfSpades" Visibility="Hidden"></Image>
+        <Image Source="/4_of_hearts.png" x:Name="FourOfHearts" Visibility="Hidden"></Image>
+        <Image Source="/4_of_diamonds.png" x:Name="FourOfDiamonds" Visibility="Hidden"></Image>
+        <Image Source="/5_of_clubs.png" x:Name="FiveOfClubs" Visibility="Hidden"></Image>
+        <Image Source="/5_of_clubs.png" x:Name="FiveOfSpades" Visibility="Hidden"></Image>
+        <Image Source="/5_of_hearts.png" x:Name="FiveOfHearts" Visibility="Hidden"></Image>
+        <Image Source="/5_of_diamonds.png" x:Name="FiveOfDiamonds" Visibility="Hidden"></Image>
+        <Image Source="/6_of_clubs.png" x:Name="SixOfClubs" Visibility="Hidden"></Image>
+        <Image Source="/6_of_spades.png" x:Name="SixOfSpades" Visibility="Hidden"></Image>
+        <Image Source="/6_of_hearts.png" x:Name="SixOfHearts" Visibility="Hidden"></Image>
+        <Image Source="/6_of_diamonds.png" x:Name="SixOfDiamonds" Visibility="Hidden"></Image>
+        <Image Source="/7_of_clubs.png" x:Name="SevenOfClubs" Visibility="Hidden"></Image>
+        <Image Source="/7_of_spades.png" x:Name="SevenOfSpades" Visibility="Hidden"></Image>
+        <Image Source="/7_of_hearts.png" x:Name="SevenOfHearts" Visibility="Hidden"></Image>
+        <Image Source="/7_of_diamonds.png" x:Name="SevenOfDiamonds" Visibility="Hidden"></Image>
+        <Image Source="/8_of_clubs.png" x:Name="EightOfClubs" Visibility="Hidden"></Image>
+        <Image Source="/8_of_spades.png" x:Name="EightOfSpades" Visibility="Hidden"></Image>
+        <Image Source="/8_of_hearts.png" x:Name="EightOfHearts" Visibility="Hidden"></Image>
+        <Image Source="/8_of_diamonds.png" x:Name="EightOfDiamonds" Visibility="Hidden"></Image>
+        <Image Source="/9_of_clubs.png" x:Name="NineOfClubs" Visibility="Hidden"></Image>
+        <Image Source="/9_of_spades.png" x:Name="NineOfSpades" Visibility="Hidden"></Image>
+        <Image Source="/9_of_hearts.png" x:Name="NineOfHearts" Visibility="Hidden"></Image>
+        <Image Source="/9_of_diamonds.png" x:Name="NineOfDiamonds" Visibility="Hidden"></Image>
+        <Image Source="/10_of_clubs.png" x:Name="TenOfClubs" Visibility="Hidden"></Image>
+        <Image Source="/10_of_spades.png" x:Name="TenOfSpades" Visibility="Hidden"></Image>
+        <Image Source="/10_of_hearts.png" x:Name="TenOfHearts" Visibility="Hidden"></Image>
+        <Image Source="/10_of_diamonds.png" x:Name="TenOfDiamonds" Visibility="Hidden"></Image>
+        <Image Source="/jack_of_clubs2.png" x:Name="JackOfClubs" Visibility="Hidden"></Image>
+        <Image Source="/queen_of_clubs2.png" x:Name="QueenOfClubs" Visibility="Hidden"></Image>
+        <Image Source="/king_of_clubs2.png" x:Name="KingOfClubs" Visibility="Hidden"></Image>
+        <Image Source="/jack_of_spades2.png" x:Name="JackOfSpades" Visibility="Hidden"></Image>
+        <Image Source="/queen_of_spades2.png" x:Name="QueenOfSpades" Visibility="Hidden"></Image>
+        <Image Source="/king_of_spades2.png" x:Name="KingOfSpades" Visibility="Hidden"></Image>
+        <Image Source="/jack_of_hearts2.png" x:Name="JackOfHearts" Visibility="Hidden"></Image>
+        <Image Source="/queen_of_hearts2.png" x:Name="QueenOfHearts" Visibility="Hidden"></Image>
+        <Image Source="/king_of_hearts2.png" x:Name="KingOfHearts" Visibility="Hidden"></Image>
+        <Image Source="/jack_of_diamonds2.png" x:Name="JackOfDiamonds" Visibility="Hidden"></Image>
+        <Image Source="/queen_of_diamonds2.png" x:Name="QueenOfDiamonds" Visibility="Hidden"></Image>
+        <Image Source="/king_of_diamonds2.png" x:Name="KingOfDiamonds" Visibility="Hidden"></Image>
+        <Image Source="/ace_of_clubs.png" x:Name="AceOfClubs" Visibility="Hidden"></Image>
+        <Image Source="/ace_of_spades.png" x:Name="AceOfSpades" Visibility="Hidden"></Image>
+        <Image Source="/ace_of_hearts.png" x:Name="AceOfHearts" Visibility="Hidden"></Image>
+        <Image Source="/ace_of_diamonds.png" x:Name="AceOfDiamonds" Visibility="Hidden"></Image>
+
+
+
+        <Button x:Name="Debugger" Margin="932,25,10,528" Content="Debugger" Click="Debugger_Click" ></Button>
+
+        <Button Content="StartDuel" HorizontalAlignment="Left" Margin="32,36,0,0" VerticalAlignment="Top" x:Name="StartDuelButton" Click="StartDuelButton_Click"/>
+
+        <Button Content="" Width="84" Height="121" Margin="10,303,706,10" x:Name="Hand1" 
+                >
+            <Button.Background>
+                <ImageBrush x:Name="Hand1Art" ImageSource="/red_joker.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+
+        <Button Content="" Width="84" Height="121" Margin="99,303,617,10" x:Name="Hand2" 
+                >
+            <Button.Background>
+                <ImageBrush x:Name="Hand2Art" ImageSource="/red_joker.png"/>
+            </Button.Background>
+        </Button>
+
+
+        <Button Content="" Width="84" Height="121" Margin="196,157,520,156" x:Name="Flop1" 
+                >
+            <Button.Background>
+                <ImageBrush x:Name="Flop1Art" ImageSource="/red_joker.png"/>
+            </Button.Background>
+        </Button>
+
+
+        <Button Content="" Width="84" Height="121" Margin="280,157,436,156" x:Name="Flop2" 
+                >
+            <Button.Background>
+                <ImageBrush x:Name="Flop2Art" ImageSource="/red_joker.png"/>
+            </Button.Background>
+        </Button>
+
+
+        <Button Content="" Width="84" Height="121" Margin="364,157,352,156" x:Name="Flop3" 
+                >
+            <Button.Background>
+                <ImageBrush x:Name="Flop3Art" ImageSource="/red_joker.png"/>
+            </Button.Background>
+        </Button>
+
+
+        <Button Content="" Width="84" Height="121" Margin="448,157,268,156" x:Name="Turn" 
+                >
+            <Button.Background>
+                <ImageBrush x:Name="TurnArt" ImageSource="/red_joker.png"/>
+            </Button.Background>
+        </Button>
+
+
+        <Button Content="" Width="84" Height="121" Margin="532,157,184,156" x:Name="River" 
+                >
+            <Button.Background>
+                <ImageBrush x:Name="RiverArt" ImageSource="/red_joker.png"/>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="YourHealth" HorizontalAlignment="Left" Margin="10,421,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" Width="95" Height="54" FontSize="36"/>
+        <TextBox x:Name="OpponentsHealth" HorizontalAlignment="Left" Margin="10,103,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" Width="95" Height="54" FontSize="36"/>
+        <TextBox x:Name="MessageBox" HorizontalAlignment="Left" Margin="768,357,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" Height="163" FontSize="20" IsEnabled="False"/>
+        <Button x:Name="MessageBoxButton" Content="Yes" HorizontalAlignment="Left" Margin="768,525,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.404,0.002" Height="49" Width="111" FontSize="36" Click="MessageBoxButton_Click" Visibility="Hidden"/>
+        <Button Content="" Width="84" Height="121" Margin="110,69,806,394" x:Name="OpponentsHand1" 
+                >
+            <Button.Background>
+                <ImageBrush x:Name="OpponentsHand1Art" ImageSource="/red_joker.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" Width="84" Height="121" Margin="199,69,717,394" x:Name="OpponentsHand2" 
+                >
+            <Button.Background>
+                <ImageBrush x:Name="OpponentsHand2Art" ImageSource="/red_joker.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+
+    </Grid>
+</Window>
